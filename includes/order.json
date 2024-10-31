@@ -1,0 +1,604 @@
+{
+    "id": 152115,
+    "parent_id": 0,
+    "number": "152115",
+    "order_key": "wc_order_dXiNyljKH4KMo",
+    "created_via": "checkout",
+    "version": "7.3.0",
+    "status": "processing",
+    "currency": "EUR",
+    "date_created": "2023-03-16T15:16:00",
+    "date_created_gmt": "2023-03-16T15:16:00",
+    "date_modified": "2023-03-16T15:16:00",
+    "date_modified_gmt": "2023-03-16T15:16:00",
+    "discount_total": "0",
+    "discount_tax": "0",
+    "shipping_total": "0",
+    "shipping_tax": "0",
+    "cart_tax": "381.633",
+    "total": "2198.93",
+    "total_tax": "381.63",
+    "prices_include_tax": false,
+    "customer_id": 1,
+    "f2d_customer_number": 0,
+    "customer_ip_address": "84.199.249.234",
+    "customer_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+    "customer_note": "",
+    "shipping": {
+        "first_name": "Noe",
+        "last_name": "Baeten",
+        "company": "Peleman",
+        "address_1": "Grote Molenweg 155",
+        "address_2": "",
+        "city": "Stabroek",
+        "state": "",
+        "postcode": "2940",
+        "country": "BE",
+        "phone": ""
+    },
+    "billing": {
+        "first_name": "Noë",
+        "last_name": "Baeten",
+        "company": "Peleman",
+        "address_1": "Grote Molenweg 155",
+        "address_2": "",
+        "city": "Stabroek",
+        "state": "",
+        "postcode": "2940",
+        "country": "BE",
+        "email": "noe.baeten@gmail.com",
+        "phone": "+324728068867"
+    },
+    "payment_method": "cod",
+    "payment_method_title": "Pay by invoice",
+    "transaction_id": "",
+    "date_paid": null,
+    "date_paid_gmt": null,
+    "date_completed": null,
+    "date_completed_gmt": null,
+    "cart_hash": "6bf3ebafb159cd11d2163c0eca15a40f",
+    "meta_data": [
+        {
+            "id": 3731528,
+            "key": "_billing_vat_number",
+            "value": "BE0465406592"
+        },
+        {
+            "id": 3731529,
+            "key": "_billing_company_segment",
+            "value": "C02"
+        },
+        {
+            "id": 3731530,
+            "key": "_billing_company_sub_segment",
+            "value": "C02FUNE"
+        },
+        {
+            "id": 3731531,
+            "key": "_billing_company_function",
+            "value": "Front-End Developer"
+        },
+        {
+            "id": 3731532,
+            "key": "is_vat_exempt",
+            "value": "no"
+        },
+        {
+            "id": 3731533,
+            "key": "_vat_number_is_validated",
+            "value": "true"
+        },
+        {
+            "id": 3731534,
+            "key": "_vat_number_is_valid",
+            "value": "true"
+        },
+        {
+            "id": 3731535,
+            "key": "_customer_ip_country",
+            "value": "BE"
+        },
+        {
+            "id": 3731536,
+            "key": "_customer_self_declared_country",
+            "value": "false"
+        },
+        {
+            "id": 3731537,
+            "key": "wpml_language",
+            "value": "en"
+        },
+        {
+            "id": 3731538,
+            "key": "_wdr_discounts",
+            "value": {
+                "free_shipping": false,
+                "cart_discounts": [],
+                "saved_amount": {
+                    "product_level": 0,
+                    "product_level_based_on_tax_settings": 0,
+                    "cart_level": 0,
+                    "total": 0,
+                    "total_based_on_tax_settings": 0
+                }
+            }
+        },
+        {
+            "id": 3731539,
+            "key": "checkout_checkbox_vat",
+            "value": "1"
+        },
+        {
+            "id": 3731540,
+            "key": "billing_company_sub_segment",
+            "value": "C02FUNE"
+        },
+        {
+            "id": 3731541,
+            "key": "billing_company_segment",
+            "value": "C02"
+        },
+        {
+            "id": 3731542,
+            "key": "billing_company_function",
+            "value": "Front-End Developer"
+        }
+    ],
+    "line_items": [
+        {
+            "id": 1215,
+            "order_id": 152115,
+            "name": "Thermal Binding Machine 8.2",
+            "product_id": 31878,
+            "variation_id": 0,
+            "quantity": 1,
+            "tax_class": "",
+            "subtotal": "1817.2",
+            "subtotal_tax": "381.612",
+            "total": "1817.2",
+            "total_tax": "381.612",
+            "taxes": [
+                {
+                    "id": 2,
+                    "total": "381.612",
+                    "subtotal": "381.612"
+                }
+            ],
+            "meta_data": [
+                {
+                    "key": "_unit_code",
+                    "value": ""
+                },
+                {
+                    "key": "_cart_units",
+                    "value": ""
+                },
+                {
+                    "key": "product_meta_data",
+                    "value": [
+                        {
+                            "id": 33753,
+                            "key": "_wpml_media_featured",
+                            "value": "0"
+                        },
+                        {
+                            "id": 33754,
+                            "key": "_wpml_media_duplicate",
+                            "value": "0"
+                        },
+                        {
+                            "id": 33755,
+                            "key": "_alp_processed",
+                            "value": "1671791568"
+                        },
+                        {
+                            "id": 35325,
+                            "key": "_wpml_location_migration_done",
+                            "value": "1"
+                        },
+                        {
+                            "id": 35361,
+                            "key": "_wpml_word_count",
+                            "value": "{\"total\":207,\"to_translate\":{\"nl\":207,\"fr\":207,\"de\":207,\"it\":207,\"es\":207}}"
+                        },
+                        {
+                            "id": 36151,
+                            "key": "customizable_product",
+                            "value": "no"
+                        },
+                        {
+                            "id": 36152,
+                            "key": "pdf_upload_required",
+                            "value": "no"
+                        },
+                        {
+                            "id": 36153,
+                            "key": "custom_add_to_cart_label",
+                            "value": "Add to cart"
+                        },
+                        {
+                            "id": 36154,
+                            "key": "f2d_artcd",
+                            "value": "251UB82EUC2"
+                        },
+                        {
+                            "id": 36155,
+                            "key": "_wc_gla_mc_status",
+                            "value": "pending"
+                        },
+                        {
+                            "id": 36156,
+                            "key": "_wc_gla_synced_at",
+                            "value": "1630662230"
+                        },
+                        {
+                            "id": 36157,
+                            "key": "_wc_gla_sync_status",
+                            "value": "pending"
+                        },
+                        {
+                            "id": 36158,
+                            "key": "_wc_gla_visibility",
+                            "value": "sync-and-show"
+                        },
+                        {
+                            "id": 36159,
+                            "key": "unit_code",
+                            "value": ""
+                        },
+                        {
+                            "id": 36160,
+                            "key": "f2d_sku_components",
+                            "value": ""
+                        },
+                        {
+                            "id": 36162,
+                            "key": "template_id",
+                            "value": ""
+                        },
+                        {
+                            "id": 36163,
+                            "key": "variant_code",
+                            "value": ""
+                        },
+                        {
+                            "id": 36164,
+                            "key": "custom_variation_add_to_cart_label",
+                            "value": ""
+                        },
+                        {
+                            "id": 36165,
+                            "key": "pdf_width_mm",
+                            "value": ""
+                        },
+                        {
+                            "id": 36166,
+                            "key": "pdf_height_mm",
+                            "value": ""
+                        },
+                        {
+                            "id": 36167,
+                            "key": "pdf_min_pages",
+                            "value": ""
+                        },
+                        {
+                            "id": 36168,
+                            "key": "pdf_max_pages",
+                            "value": ""
+                        },
+                        {
+                            "id": 36169,
+                            "key": "price_per_page",
+                            "value": ""
+                        },
+                        {
+                            "id": 36170,
+                            "key": "base_number_of_pages",
+                            "value": ""
+                        },
+                        {
+                            "id": 36171,
+                            "key": "cart_price",
+                            "value": ""
+                        },
+                        {
+                            "id": 36172,
+                            "key": "cart_units",
+                            "value": ""
+                        },
+                        {
+                            "id": 36173,
+                            "key": "haru_single_product_style",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36174,
+                            "key": "haru_single_product_thumbnail_columns",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36175,
+                            "key": "haru_single_product_thumbnail_position",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36176,
+                            "key": "haru_layout_style",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36177,
+                            "key": "haru_page_layout",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36178,
+                            "key": "haru_page_onepage",
+                            "value": "0"
+                        },
+                        {
+                            "id": 36179,
+                            "key": "haru_top_header",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36180,
+                            "key": "haru_top_header_layout_width",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36181,
+                            "key": "haru_header_nav_layout",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36182,
+                            "key": "haru_header_layout_over_slideshow",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36183,
+                            "key": "haru_header_navigation_skin",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36184,
+                            "key": "haru_header_over_slideshow_hover",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36185,
+                            "key": "haru_header_layout_under_slideshow",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36186,
+                            "key": "haru_header_sticky",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36187,
+                            "key": "haru_header_sticky_skin",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36188,
+                            "key": "haru_enable_header_elements_nav",
+                            "value": "0"
+                        },
+                        {
+                            "id": 36189,
+                            "key": "haru_enable_header_elements_left",
+                            "value": "0"
+                        },
+                        {
+                            "id": 36190,
+                            "key": "haru_enable_header_elements_right",
+                            "value": "0"
+                        },
+                        {
+                            "id": 36191,
+                            "key": "haru_mobile_header_menu_drop",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36192,
+                            "key": "haru_mobile_header_stick",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36193,
+                            "key": "haru_show_page_title",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36194,
+                            "key": "haru_page_title_layout",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36195,
+                            "key": "haru_page_title_parallax",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36196,
+                            "key": "haru_breadcrumbs_in_page_title",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36197,
+                            "key": "haru_footer_layout",
+                            "value": "'-1"
+                        },
+                        {
+                            "id": 36198,
+                            "key": "_gpls_woo_rfq_rfq_enable",
+                            "value": ""
+                        },
+                        {
+                            "id": 36199,
+                            "key": "haru_product_new",
+                            "value": "no"
+                        },
+                        {
+                            "id": 36200,
+                            "key": "haru_product_hot",
+                            "value": "no"
+                        },
+                        {
+                            "id": 36201,
+                            "key": "haru_product_video_url",
+                            "value": "https://youtu.be/ZLyjh2ab3HA"
+                        },
+                        {
+                            "id": 36204,
+                            "key": "_yoast_wpseo_content_score",
+                            "value": "90"
+                        },
+                        {
+                            "id": 36205,
+                            "key": "_yoast_wpseo_estimated-reading-time-minutes",
+                            "value": ""
+                        },
+                        {
+                            "id": 506486,
+                            "key": "recupel",
+                            "value": "0.10"
+                        },
+                        {
+                            "id": 506487,
+                            "key": "_yoast_wpseo_focuskw",
+                            "value": "thermal binding machines"
+                        },
+                        {
+                            "id": 506488,
+                            "key": "_yoast_wpseo_metadesc",
+                            "value": "The state-of-the-art Thermal Binding Machine 8.2 binds documents professionally, in a matter of seconds."
+                        },
+                        {
+                            "id": 1753498,
+                            "key": "old_product_name",
+                            "value": "Unibind S125, Unibind XU138, Unibinder 7.1"
+                        },
+                        {
+                            "id": 1753499,
+                            "key": "yikes_woo_products_tabs",
+                            "value": "a:4:{i:0;a:3:{s:5:\"title\";s:7:\"Video's\";s:2:\"id\";s:5:\"video\";s:7:\"content\";s:297:\"<iframe width=\"940\" height=\"529\" src=\"https://player.vimeo.com/video/720663051 \" title=\"Vimeo video player\" frameborder=\"0\" allowfullscreen></iframe><iframe width=\"940\" height=\"529\" src=\"https://player.vimeo.com/video/754582246\" title=\"Vimeo video player\" frameborder=\"0\" allowfullscreen></iframe>\";}i:1;a:3:{s:5:\"title\";s:14:\"Specifications\";s:2:\"id\";s:14:\"specifications\";s:7:\"content\";s:989:\"<h4>productinfo</h4><table class=\"pproductinfo\"><tr><td>Waranty </td><td>2 years</td></tr><tr><td>Usage</td><td>Office</td></tr></table><h4>techinfo</h4><table class=\"pproductinfo\"><tr><td>Crimping compartments</td><td>1</td></tr><tr><td>Krimp compartmenten</td><td>1</td></tr><tr><td>Binding compartments</td><td>2</td></tr><tr><td>Bind compartmenten</td><td>2</td></tr><tr><td>Cooling compartments</td><td>2</td></tr><tr><td>Afkoel compartmenten</td><td>2</td></tr><tr><td>Vermogen</td><td>2 x 175 W</td></tr><tr><td>Power</td><td>2 x 175 W</td></tr><tr><td>Weight</td><td>11,450 kg</td></tr><tr><td>Gewicht</td><td>11,450 kg</td></tr><tr><td>Voltage</td><td>220-240 V~50 Hz 120 V~60 Hz</td></tr><tr><td>Voltage</td><td>220-240 V~50 Hz 120 V~60 Hz</td></tr><tr><td>Afmetingen</td><td>480 x 310 x 380 mm</td></tr><tr><td>Dimensions</td><td>480 x 310 x 380 mm</td></tr><tr><td>Certificatie</td><td>KEMA gecertificeerd</td></tr><tr><td>Certification</td><td>KEMA certified</td></tr></table>\";}i:2;a:3:{s:5:\"title\";s:9:\"Downloads\";s:2:\"id\";s:9:\"downloads\";s:7:\"content\";s:325:\"<p class=\"pdownload\"><a href=\"https://peleman.com/product-files/manuals/manual-thermal-binding-machine8.2-en.pdf\" download target=\"_blank\">Manual</a></p><p class=\"pdownload\"><a href=\"https://dev.peleman.com/en-uk/wp-content/uploads/2022/02/SpineSizeGuide940.png\" download target=\"_blank\">Spinesize Chart in PNG format</a></p>\";}i:3;a:3:{s:5:\"title\";s:21:\"Spinesize Information\";s:2:\"id\";s:14:\"spinesizechart\";s:7:\"content\";s:97:\"<p><img src=\"https://dev.peleman.com/en-uk/wp-content/uploads/2022/02/SpineSizeGuide940.png\"></p>\";}}"
+                        },
+                        {
+                            "id": 1753745,
+                            "key": "_yoast_wpseo_linkdex",
+                            "value": "57"
+                        },
+                        {
+                            "id": 1753747,
+                            "key": "_oembed_2ad5e5beccf47b7d7ab436e812b30e21",
+                            "value": "<iframe title=\"Thermal Binding Machine 8.2\" width=\"1220\" height=\"686\" src=\"https://www.youtube.com/embed/ZLyjh2ab3HA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+                        },
+                        {
+                            "id": 1753748,
+                            "key": "_oembed_time_2ad5e5beccf47b7d7ab436e812b30e21",
+                            "value": "1646229574"
+                        },
+                        {
+                            "id": 1753750,
+                            "key": "call_to_order",
+                            "value": "no"
+                        },
+                        {
+                            "id": 1753751,
+                            "key": "_wpml_media_has_media",
+                            "value": "1"
+                        },
+                        {
+                            "id": 1754614,
+                            "key": "sharepoint_reseller",
+                            "value": "https://unibind.sharepoint.com/:f:/r/sites/SalesandMarketing/Documents/2.%20Solutions%20%26%20Products/2.01.%20Binding%20Systems/2.01.2.%20Thermal%20Binding%20Machine%208.2?csf=1&web=1&e=ygEJvG"
+                        }
+                    ]
+                }
+            ],
+            "unit_code": "",
+            "cart_units": "",
+            "price": "1817.20",
+            "parent_name": null,
+            "sku": "WBB251UB82EUC2",
+            "f2d_sku_components": "",
+            "f2d_artcd": "251UB82EUC2",
+            "files": [
+                {
+                    "type": "pie project",
+                    "id": ""
+                },
+                {
+                    "type": "pdf upload",
+                    "id": ""
+                }
+            ]
+        }
+    ],
+    "tax_lines": [
+        {
+            "id": 1218,
+            "order_id": 152115,
+            "name": "",
+            "rate_code": "BE-EU VAT (BE) 21%-1",
+            "rate_id": 2,
+            "label": "EU VAT (BE) 21%",
+            "compound": true,
+            "tax_total": "381.633",
+            "shipping_tax_total": 0,
+            "rate_percent": 21,
+            "meta_data": []
+        }
+    ],
+    "shipping_lines": [
+        {
+            "id": 1217,
+            "order_id": 152115,
+            "name": "Free shipping",
+            "method_title": "Free shipping",
+            "method_id": "free_shipping",
+            "instance_id": "2",
+            "total": "0.00",
+            "total_tax": "0",
+            "taxes": [],
+            "meta_data": [
+                {
+                    "id": 10563,
+                    "key": "Items",
+                    "value": "Thermal Binding Machine 8.2 &times; 1"
+                }
+            ]
+        }
+    ],
+    "fee_lines": [
+        {
+            "id": 1216,
+            "order_id": 152115,
+            "name": "Recupel charge",
+            "tax_class": "",
+            "tax_status": "taxable",
+            "amount": "0.1",
+            "total": "0.1",
+            "total_tax": "0.021",
+            "taxes": [
+                {
+                    "id": 2,
+                    "total": "0.021",
+                    "subtotal": ""
+                }
+            ],
+            "meta_data": []
+        }
+    ],
+    "coupon_lines": [],
+    "refunds": [],
+    "payment_url": "https://dev.peleman.com/checkout/order-pay/152115/?pay_for_order=true&key=wc_order_dXiNyljKH4KMo",
+    "is_editable": false,
+    "needs_payment": false,
+    "needs_processing": true,
+    "language_code": "en",
+    "pie_projects": []
+}

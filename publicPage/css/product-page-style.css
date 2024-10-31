@@ -1,0 +1,129 @@
+.pwp-disabled {
+    cursor: not-allowed !important;
+    opacity: 0.5 !important;
+}
+
+.pwp-disabled:active {
+    pointer-events: none;
+}
+
+.pwp-response-error {
+    color: red;
+}
+
+.pwp-loading {
+    margin-right: 10px;
+    opacity: 1;
+    color: #a6a6a6;
+    /* animation: rotate-with-color 1.5s linear infinite; */
+    vertical-align: middle;
+}
+
+.pwp-loader {
+    border: 4px solid #ffffff66;
+    border-top: 4px solid #2b2b2b;
+    border-radius: 50%;
+    width: 1.2em;
+    height: 1.2em;
+    animation: spin 1.5s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.pwp-hidden {
+    display: none !important;
+    cursor: not allowed !important;
+    pointer-events: none !important;
+}
+
+@keyframes rotate-with-color {
+    25% {
+        color: rgb(24, 53, 94);
+        transform: rotate(90deg);
+    }
+
+    50% {
+        color: rgb(24, 53, 94);
+        transform: rotate(180deg);
+    }
+
+    75% {
+        color: rgb(24, 53, 94);
+        transform: rotate(270deg);
+    }
+
+    100% {
+        color: white;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.remove-margin {
+    margin-bottom: 0 !important;
+}
+
+/* style override*/
+.individual-price,
+.add-to-cart-price {
+    font-size: 20px;
+    display: block;
+}
+
+.individual-price .price-amount,
+.add-to-cart-price .price-amount {
+    color: #3f3f3f;
+    font-weight: bold;
+}
+
+.individual-price span.woocommerce-price-suffix,
+.add-to-cart-price span.woocommerce-price-suffix {
+    color: #757575 !important;
+}
+
+.bundle-suffix {
+    font-size: 80% !important;
+}
+
+/* custom button class for editing a project from the cart */
+.pwp_editor_button {
+    width: 40%;
+    background-color: #000000 !important;
+    border-radius: 3px !important;
+    color: white !important;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: .1s;
+}
+
+.pwp_editor_button:hover {
+    background-color: rgb(110, 110, 110) !important;
+}
+
+.pwp_editor_button:active {
+    background-color: rgb(255, 255, 255) !important;
+    border: #000000 !important;
+    color: rgb(21, 21, 21) !important;
+}
+
+a.button.checkout.wc-forward.btn.btn-dark.btn-md.btn-block {
+    display: none !important;
+}

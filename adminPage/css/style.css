@@ -1,0 +1,197 @@
+.pwp-options-group {
+    FONT-WEIGHT: 200;
+    padding: 10px;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden !important;
+}
+
+.pwp-options-margins {
+    padding: 0em 2em;
+}
+
+.pwp-options-group.form-row-first,
+.pwp-options-group.form-row-last {
+    width: 46% !important;
+}
+
+.form-row-multi-3 {
+    width: 30% !important;
+    float: left;
+}
+
+.pwp-form-row-padding-5 {
+    padding: 5px !important;
+}
+
+
+.pwp-options-group-title {
+    padding: 6px !important;
+    font-weight: 600 !important;
+    font-size: 1.3em !important;
+    margin-top: 12px !important;
+}
+
+.pwp-options-header {
+    width: 100%;
+    clear: both;
+    font-weight: bold !important;
+    font-size: inherit;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.pwp-options-group input[type='checkbox'] {
+    margin: 4px !important;
+}
+
+.pwp-settings {
+    background-color: #e9e9e9;
+    border-radius: 0.25rem;
+    padding: 10px;
+    margin: 10px 10px 10px -10px;
+}
+
+.pwp-settings ul {
+    list-style-type: disc !important;
+    padding-left: 2.5em;
+}
+
+.pwp-settings h1 {
+    margin-bottom: 2px !important;
+}
+
+.pwp-settings h2 {
+    font-weight: 400 !important;
+}
+
+.pwp-settings .form-row {
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pwp-settings .form-row label {
+    font-weight: 600;
+}
+
+.pwp-settings .form-row input[type='text'] {
+    width: 100%;
+}
+
+.grid-medium-column {
+    flex: 0 0 auto;
+    width: 12%;
+}
+
+.grid-large-column {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.grid-extra-large-column {
+    flex: 0 0 auto;
+    width: 33%;
+}
+
+#f2d-custnr-saved {
+    margin: 0 -3px 0 3px;
+    position: relative;
+    top: 4px;
+}
+
+#pwp-admin-loading {
+    margin: 0 -3px 0 3px;
+    position: relative;
+    top: 4px;
+    opacity: 1;
+    color: white;
+    animation: rotate-with-color 1.5s linear infinite;
+}
+
+.pwp-hidden {
+    display: none !important;
+}
+
+.pwp-options-group.form-row.form-row-full {
+    width: auto !important;
+}
+
+.pwp-options-group.form-field select {
+    max-width: 100% !important;
+    font-weight: 200;
+}
+
+.form-row.form-row-first,
+.form-row.form-row-last {
+    FONT-VARIANT: JIS78;
+    width: 46% !important;
+}
+
+.pwp-options-group fieldset.form-field,
+.pwp-options-group p.form-field {
+    padding: 5px 5px 5px 5px !important;
+}
+
+.pwp-options-group input[type=email],
+.pwp-options-group input[type=number],
+.pwp-options-group input[type=password],
+.pwp-options-group input[type=text] {
+    width: 100% !important;
+    float: left;
+    clear: both;
+}
+
+.pwp-options-group label,
+.pwp-options-group legend {
+    font-size: 13px !important;
+    float: left !important;
+    width: 150px !important;
+    padding: 0;
+    clear: right;
+    margin: 0 0 0 0 !important;
+}
+
+#pwp_editor_id {
+    width: 100% !important;
+    max-width: 100%;
+    /* clear: both; */
+}
+
+.nav-tab-wrapper .nav-tab.nav_tab_active {
+    color: rgb(219, 219, 219); 
+    background-color: rgb(131, 133, 133); 
+}
+
+@keyframes rotate-with-color {
+    25% {
+        color: rgb(24, 53, 94);
+        transform: rotate(90deg);
+    }
+
+    50% {
+        color: rgb(24, 53, 94);
+        transform: rotate(180deg);
+    }
+
+    75% {
+        color: rgb(24, 53, 94);
+        transform: rotate(270deg);
+    }
+
+    100% {
+        color: white;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#f2d_error {
+    color: red;
+    font-size: small;
+}

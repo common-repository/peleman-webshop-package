@@ -1,0 +1,179 @@
+{
+    "f2d_sku_components": {
+        "type": "text",
+        "label": "Fly2Data SKU data",
+        "description": "F2D components that make up a variation",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "f2d_artcd": {
+        "type": "text",
+        "label": "Fly2Data article code",
+        "description": "F2D article code",
+        "classes": [
+            "form-row",
+            "form-row-last"
+        ]
+    },
+    "pie_customizeable": {
+        "type": "bool",
+        "label": " Is Customizable product",
+        "description": "Wether the product is customizable with the Peleman Image Editor",
+        "classes": [
+            "form-row",
+            "form-row-full",
+            "checkbox",
+            "call_to_order"
+        ]
+    },
+    "template_id": {
+        "type": "text",
+        "label": "PIE template id",
+        "description": "Template Id for the Peleman Image Editor",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "variant_code": {
+        "type": "text",
+        "label": "PIE Variant Code",
+        "description": "Variant Code",
+        "classes": [
+            "form-row",
+            "form-row-last"
+        ]
+    },
+    "pie_color_code": {
+        "type": "text",
+        "label": "PIE Color Code",
+        "description": "Color code",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "pie_background_id": {
+        "type": "text",
+        "label": "PIE Background ID",
+        "description": "Background Id ",
+        "classes": [
+            "form-row",
+            "form-row-last"
+        ]
+    },
+    "custom_variation_add_to_cart_label": {
+        "type": "text",
+        "label": "Custom Add to Cart Label text",
+        "description": "Define a custom Add to cart label",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "price_per_page": {
+        "type": "number",
+        "label": "Price per Page",
+        "description": "Price per additional page (piece/sheet of paper = 2 pages)",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "base_page_count": {
+        "type": "text",
+        "label": "Base number of pages",
+        "description": "Standard number of pages included in price",
+        "classes": [
+            "form-row",
+            "form-row-last"
+        ]
+    },
+    "cart_price": {
+        "type": "number",
+        "label": "Unit purchase price",
+        "description": "These items are sold as units, not individually",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "cart_units": {
+        "type": "number",
+        "label": "Unit Amount",
+        "description": "Number of items per unit",
+        "classes": [
+            "form-row",
+            "form-row-last"
+        ]
+    },
+    "unit_code": {
+        "type": "text",
+        "label": "Unit code",
+        "description": "The unit code of this item",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "call_to_order": {
+        "type": "bool",
+        "label": " Call Us to Order",
+        "description": "Remove add to cart button and display \"Call us to order\"",
+        "classes": [
+            "form-row",
+            "form-row-full",
+            "checkbox",
+            "call_to_order"
+        ]
+    },
+    "pdf_upload_required": {
+        "type": "bool",
+        "label": " PDF Content Required",
+        "description": "Check to require a PDF upload",
+        "classes": [
+            "form-row",
+            "form-row-full",
+            "checkbox",
+            "pdf_required"
+        ]
+    },
+    "pdf_width_mm": {
+        "type": "number",
+        "label": "page width (mm)",
+        "description": "",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "pdf_height_mm": {
+        "type": "number",
+        "label": "page height (mm)",
+        "description": "",
+        "classes": [
+            "form-row",
+            "form-row-last"
+        ]
+    },
+    "pdf_min_pages": {
+        "type": "number",
+        "label": "Minimum Page Count",
+        "description": "",
+        "classes": [
+            "form-row",
+            "form-row-first"
+        ]
+    },
+    "pdf_max_pages": {
+        "type": "number",
+        "label": "Maximum Page Count",
+        "description": "",
+        "classes": [
+            "form-row",
+            "form-row-last"
+        ]
+    }
+}

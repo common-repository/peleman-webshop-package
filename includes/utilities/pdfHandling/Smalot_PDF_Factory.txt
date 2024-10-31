@@ -1,0 +1,43 @@
+<?php
+
+declare(strict_types=1);
+
+namespace PWP\includes\utilities;
+
+use PWP\includes\utilities\pdfHandling\I_PDF_Data;
+use PWP\includes\wrappers\PDF_Upload;
+use Smalot\PdfParser\Parser;
+
+class Smalot_PDF_Factory implements I_PDF_Data
+{
+    /**
+     * @var float
+     * User space unit conversion in mm
+     * 
+     * user space units represent 1/72nd of an inch according to PDF specification.
+     */
+    private const USER_SPACE_UNIT = 0.3527777;
+
+    public static function generate_from_upload(array $upload): PDF_Upload
+    {
+        $pdf = new PDF_Upload($upload);
+        $parser = new Parser();
+
+        $file = $parser->parseFile($pdf->get_tmp_name());
+        $pageCount = count($file->getPages());
+        $pageDetails = $file->getPages()[0]->getDetails();
+
+        $rightBound     = $pageDetails['MediaBox'][0];
+        $topBound       = $pageDetails['MediaBox'][1];
+        $leftBound      = $pageDetails['MediaBox'][2];
+        $bottomBound    = $pageDetails['MediaBox'][3];
+
+        $width = ($leftBound - $rightBound) * self::USER_SPACE_UNIT;
+        $height = ($bottomBound - $topBound) * self::USER_SPACE_UNIT;
+
+        $pdf->set_page_count($pageCount);
+        $pdf->set_dimensions($width, $height);
+
+        return $pdf;
+    }
+}
